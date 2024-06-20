@@ -96,3 +96,8 @@ nav li a {
     margin-top: 56px;
     margin-right: 16px;
 }
+
+.produtos{
+    display: grid;
+    grid-template-columns: 33%, 33%, 33%;
+}
