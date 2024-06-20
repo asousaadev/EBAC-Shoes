@@ -5,12 +5,10 @@
     font-family: "Montserrat", sans-serif;
 }
 
-body{
+body {
     background-color: #f8f9fa;
 }
 
-
-/*  */
 
 .container {
     width: 100%;
@@ -19,21 +17,22 @@ body{
 }
 
 .container-flex {
-    max-width: 1024px; 
+    max-width: 1024px;
     display: flex;
     align-items: center;
     margin-left: auto;
 }
 
-.container h3{
+.container h3 {
     padding-top: 36px;
     font-size: 16px;
 }
 
-.container h2{
+.container h2 {
+    padding-top: 0;
     margin-bottom: 16px;
     border-bottom: 1px solid #3667D5;
-    padding-bottom: 32px;
+    padding-bottom:32px;
     color: #3667D5;
     font-style: italic;
 }
@@ -69,35 +68,78 @@ nav li a {
     font-size: 14px;
 }
 
-.conteudo{
+.conteudo {
     display: grid;
 
 }
 
-.noticia{
+.noticia {
     display: flex;
 }
 
-.noticias h2{
+.noticias h2 {
     margin: 32px 0;
 }
 
-.noticia img{
+.noticia img {
     max-width: 100%;
 }
 
-.destaque{
+.destaque {
     display: flex;
     margin-bottom: 56px;
 }
 
 
-.destaque .noticia img{
+.destaque .noticia img {
     margin-top: 56px;
     margin-right: 16px;
 }
 
-.produtos{
-    display: grid;
-    grid-template-columns: 33%, 33%, 33%;
+/* -------- section dois ------ */
+
+.lista-tenis {
+    list-style: none;
+    padding: 0;
+}
+
+.lista-tenis li {
+    display: block;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.lista-tenis img {
+    max-width: 100%;
+    height: auto;
+}
+
+.lista-tenis h3 {
+    font-size: 18px;
+    margin: 0;
+}
+
+.lista-tenis p {
+    font-size: 14px;
+    margin: 10px 0;
+}
+
+.lista-tenis .price {
+    font-size: 16px;
+}
+
+.button-carrinho {
+    max-width: 100%;
+    background-color: #0056b3;
+    border-radius: 5px;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    /* transition: background-color 0.3s ease; */
+}
+
+.button-carrinho:hover {
+    background-color: #0056b3;
 }
