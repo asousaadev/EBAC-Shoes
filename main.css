@@ -5,13 +5,16 @@
     font-family: "Montserrat", sans-serif;
 }
 
+body{
+    background-color: #f8f9fa;
+}
+
 
 /*  */
 
-
 .container {
     width: 100%;
-    margin: 0 auto;
+    margin: auto;
 
 }
 
@@ -21,6 +24,20 @@
     align-items: center;
     margin-left: auto;
 }
+
+.container h3{
+    padding-top: 36px;
+    font-size: 16px;
+}
+
+.container h2{
+    margin-bottom: 16px;
+    border-bottom: 1px solid #3667D5;
+    padding-bottom: 32px;
+    color: #3667D5;
+    font-style: italic;
+}
+
 
 header {
     display: flex;
@@ -50,5 +67,32 @@ nav li a {
     text-decoration: none;
     font-style: normal;
     font-size: 14px;
-    font-weight: 400;
+}
+
+.conteudo{
+    display: grid;
+
+}
+
+.noticia{
+    display: flex;
+}
+
+.noticias h2{
+    margin: 32px 0;
+}
+
+.noticia img{
+    max-width: 100%;
+}
+
+.destaque{
+    display: flex;
+    margin-bottom: 56px;
+}
+
+
+.destaque .noticia img{
+    margin-top: 56px;
+    margin-right: 16px;
 }
