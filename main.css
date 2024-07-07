@@ -9,11 +9,9 @@ body {
     background-color: #f8f9fa;
 }
 
-
 .container {
     width: 100%;
     margin: auto;
-
 }
 
 .container-flex {
@@ -68,12 +66,21 @@ nav li a {
     font-size: 14px;
 }
 
-.conteudo {
-    display: grid;
+/* -------------- section loja ----------- */
 
+#sobre-a-loja{
+    margin-top: 56px;
 }
 
-.noticia {
+.mr-0{
+    margin-top: 0px;
+}
+.container>main{
+    margin-top: 56px;
+    margin-bottom: 32px;   
+}
+
+.sobre-loja {
     display: flex;
 }
 
@@ -81,63 +88,67 @@ nav li a {
     margin: 32px 0;
 }
 
-.noticia img {
+.sobre-loja img {
     max-width: 100%;
-}
-
-.destaque {
-    display: flex;
-    margin-bottom: 56px;
+    margin-right: 32px;
 }
 
 
-.destaque .noticia img {
+/* -------------- Produtos ----------- */
+.container-produto{
+    max-width: 1024px;
     margin-top: 56px;
-    margin-right: 16px;
 }
-
-/* -------- section dois ------ */
 
 .lista-tenis {
     list-style: none;
-    padding: 0;
+    align-items: center;
+    margin: auto;
 }
 
 .lista-tenis li {
+    max-width: 25%;
     display: block;
-    justify-content: space-between;
-    align-items: center;
     margin-bottom: 20px;
 }
 
 .lista-tenis img {
     max-width: 100%;
     height: auto;
+    margin-top: 8px;
+    margin-left: 13px;
 }
 
 .lista-tenis h3 {
+    text-align: center;
     font-size: 18px;
     margin: 0;
 }
 
 .lista-tenis p {
+    text-align: center;
     font-size: 14px;
     margin: 10px 0;
 }
 
 .lista-tenis .price {
+    text-align: center;
     font-size: 16px;
 }
 
 .button-carrinho {
     max-width: 100%;
-    background-color: #0056b3;
+    margin-top: 8px;
+    margin-left: 35px;
+    margin-bottom: 16px;
+    font-weight: 600;
+    background-color: #094b92;
     border-radius: 5px;
     color: #fff;
     border: none;
     padding: 10px 20px;
     cursor: pointer;
-    /* transition: background-color 0.3s ease; */
+    transition: background-color 0.3s ease;
 }
 
 .button-carrinho:hover {

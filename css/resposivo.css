@@ -1,0 +1,25 @@
+@media screen and (max-width: 1023px) {
+
+    /* Layout Tablet */
+}
+
+@media screen and (max-width: 640px) {
+
+    /* Layout Mobile */
+h1{
+    display: block;
+    
+}
+
+.container{
+    width: 90%;
+    display: block;
+    align-items: center;
+    overflow:none;
+}
+
+.main.conainer-flex{
+    display: block;
+
+}
+}
