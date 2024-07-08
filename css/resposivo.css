@@ -1,25 +1,168 @@
 @media screen and (max-width: 1023px) {
 
     /* Layout Tablet */
+
+    /* --------- Lojas -------- */
+    .container {
+        width: 100%;
+        margin: auto;
+    }
+
+    .container-flex {
+        max-width: 641px;
+        display: flex;
+        align-items: center;
+        margin-left: auto;
+    }
+
+    .container h2 {
+        padding-top: 32px;
+        margin-bottom: 16px;
+        border-bottom: 1px solid #3667D5;
+        padding-bottom: 32px;
+        color: #3667D5;
+        font-style: italic;
+    }
+
+    .sobre-loja img {
+        width: 650px;
+
+    }
+
+    .sobre-loja {
+        display: block;
+    }
+
+    /* --------- Produtos -------- */
+
+    .container-produto {
+        max-width: 641px;
+        margin-top: 56px;
+    }
+
+
+    .lista-tenis {
+        display: flex;
+        list-style: none;
+        margin: auto;
+    }
+
+    .container-flex {
+        
+        flex-wrap: wrap;
+    }
+
+    .lista-tenis li {
+        max-width: 100%;
+        text-align: center;
+
+    }
+
+    .lista-tenis img {
+        width: 285px;
+        margin-right: auto;
+    }
+
+    .lista-tenis h3 {
+        text-align: center;
+        font-weight: 600;
+        font-size: 16px;
+        margin: 0;
+    }
+
+    .lista-tenis p {
+        text-align: center;
+        width: 250px;
+        font-size: 14px;
+        margin: 10px 0;
+    }
+
+    .lista-tenis .price {
+        text-align: center;
+        font-size: 16px;
+    }
+
+    .button-carrinho {
+        max-width: 100%;
+        width: 250px;
+        margin-top: 8px;
+        margin-left: 15px;
+        margin-bottom: 16px;
+        font-weight: 600;
+        background-color: #094b92;
+        border-radius: 5px;
+        color: #fff;
+        border: none;
+        padding: 10px 20px;
+        cursor: pointer;
+        transition: background-color 0.3s ease;
+    }
+
+    .button-carrinho:hover {
+        background-color: #0056b3;
+    }
+
 }
 
 @media screen and (max-width: 640px) {
 
     /* Layout Mobile */
-h1{
-    display: block;
+    .container {
+        width: 90%;
+        margin: auto;
+    }
+
+    .lista-tenis li {
+        max-width: 100%;
+        text-align: center;
+
+    }
+
+    .container-flex {
+        flex-wrap: wrap;
+    }
+
+    .lista-tenis img {
+        width: 450px;
     
-}
+    }
 
-.container{
-    width: 90%;
-    display: block;
-    align-items: center;
-    overflow:none;
-}
+    .lista-tenis h3 {
+        align-items: center;
+        text-align: center;
+        font-weight: 800;
+        font-size: 18px;
+        margin: 0;
+    }
 
-.main.conainer-flex{
-    display: block;
+    .lista-tenis p {
+        max-width: 50%;
+        text-align: center;
+        font-size: 16px;
+        margin: 35px;
+        align-content: center;
+    }
 
-}
+    .lista-tenis .price {
+        text-align: center;
+        font-size: 16px;
+    }
+
+    .button-carrinho {
+        max-width: 100%;
+        width: 450px;
+        margin-top: 8px;
+        margin-left: 15px;
+        margin-bottom: 16px;
+        font-weight: 600;
+        background-color: #094b92;
+        border-radius: 5px;
+        color: #fff;
+        border: none;
+        padding: 10px 20px;
+        cursor: pointer;
+        transition: background-color 0.3s ease;
+    }
+
+
 }

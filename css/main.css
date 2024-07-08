@@ -9,10 +9,23 @@ body {
     background-color: #f8f9fa;
 }
 
+.row{
+    --bs-gutter-x: 1.5rem;
+    --bs-gutter-y: 0;
+    flex-wrap: wrap;
+    margin-top: calc(var(--bs-gutter-y)* -1);
+    margin-left: calc(var(--bs-gutter-x)* -.5);
+    margin-right: calc(var(--bs-gutter-x)* -.5);
+}
+
 .container {
     width: 100%;
-    margin: auto;
+    padding-right: var(--bs-gutter-y, .75rem);
+    padding-left: var(--bs-gutter-x, .75rem);
+    margin-right: auto;
+    margin-left: auto;
 }
+
 
 .container-flex {
     max-width: 1024px;
@@ -35,7 +48,6 @@ body {
     font-style: italic;
 }
 
-
 header {
     display: flex;
     justify-content: space-between;
@@ -49,7 +61,6 @@ header {
     font-style: italic;
 
 }
-
 
 nav li {
     list-style: none;
@@ -84,10 +95,6 @@ nav li a {
     display: flex;
 }
 
-.noticias h2 {
-    margin: 32px 0;
-}
-
 .sobre-loja img {
     max-width: 100%;
     margin-right: 32px;
@@ -95,6 +102,7 @@ nav li a {
 
 
 /* -------------- Produtos ----------- */
+
 .container-produto{
     max-width: 1024px;
     margin-top: 56px;
@@ -106,8 +114,20 @@ nav li a {
     margin: auto;
 }
 
+
+.my-5{
+margin-top: 3rem !important;
+margin-bottom: 3rem !important;
+}
+
+.col-4{
+    flex: 0 0 auto;
+    width: 33,3333333%;
+
+}
+
 .lista-tenis li {
-    max-width: 25%;
+    max-width: 24%;
     display: block;
     margin-bottom: 20px;
 }
@@ -121,6 +141,7 @@ nav li a {
 
 .lista-tenis h3 {
     text-align: center;
+    font-weight: 300;
     font-size: 18px;
     margin: 0;
 }
